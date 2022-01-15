@@ -29,7 +29,6 @@ for(let item of products) {
 
 
     span.innerHTML = item.title
-    p.innerHTML = item.description
     for(let key in item.about) {
         span2.innerHTML += `<b> ${key}:</b>  ${item.about[key]}  <br> <br>`
     }
