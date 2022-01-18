@@ -140,6 +140,17 @@
             .refer_down {
                 height: 70px;
                 transform: translateY(40px);
+               
+            }
+           
+        }
+    }
+    .screen_two{
+        .wrapper {
+            .refer_down{
+               .line{
+                height: 160% !important;
+               }
             }
         }
     }
@@ -151,6 +162,11 @@
         padding: 15px 20px;
         font-size: 14px; 
     }
+
+    
+   
+  
+    
     .products {
         gap: 10px !important;
         .item {
@@ -231,6 +247,12 @@
                 display: flex;
                 flex-wrap: wrap;
             }
+        }
+    }
+    .refer_down{
+        margin-bottom: 100% !important;
+        .line{
+            display: none !important ;
         }
     }
     .products {

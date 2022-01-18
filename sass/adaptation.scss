@@ -103,6 +103,24 @@
             font-size: 14px;
         }
     }
+    .screen_two{
+        .wrapper {
+            .refer_down{
+               .line{
+                height: 160% !important;
+               }
+            }
+        }
+    }
+    .products{
+        .item{
+            .description{
+                .dropDown{
+                    height: 20px !important;
+                }
+            }
+        }
+    }
 
     .screen_questions {
         h1 {

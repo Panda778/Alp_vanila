@@ -25,18 +25,20 @@ for(let item of products) {
     let p = document.createElement('p')
     let span2 = document.createElement('span')
     
-
-
-
+   
     span.innerHTML = item.title
+    span.onclick = () => {
+        description.classList.toggle('activeAfter')
+        
+    }
+
     for(let key in item.about) {
         span2.innerHTML += `<b> ${key}:</b>  ${item.about[key]}  <br> <br>`
     }
     
-
     image.setAttribute('src', item.img)
     div.classList.add('item')
-    description.classList.add('description')
+    description.classList.add('description', 'dropDown')
     span.classList.add('h3')
     p.classList.add('note')
 
@@ -58,13 +60,16 @@ for(let item of questions) {
     let span = document.createElement('span')
     let p = document.createElement('p')
     let span2 = document.createElement('span')
-    
+  
+
     span.innerHTML = item.title
     p.innerHTML = item.description
+   
     for(let key in item.about) {
         span2.innerHTML += `<b> ${key}:</b>  ${item.about[key]}  <br> <br>`
     }
     
+
 
     image.setAttribute('src', item.img)
     div.classList.add('item', 'whyWeItem')
