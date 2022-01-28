@@ -251,16 +251,16 @@
      
     </div>
     <div class="margin"></div>
-    <form action="" class="def-width-middle">
+    <form action="/send.php" method="post" onsubmit="inputs" class="def-width-middle">
       <div class="mini_heading">
         <span class="catalog none-for-mobile">ОСТАВЬТЕ ЗАЯВКУ</span>
         <span class="h2">Напишите нам</span>
       </div>
       <div class="inputs">
-        <input type="text" placeholder="Введите имя" />
-        <input type="number" placeholder="Номер телефона" />
-        <input type="e-mail" placeholder="E-mail" />
-        <input type="text" placeholder="Текст" />
+        <input type="text" name='name' placeholder="Введите имя" />
+        <input type="number"  name='phone' placeholder="Номер телефона" />
+        <input type="e-mail" name='email' placeholder="E-mail" />
+        <input type="text" name='text' placeholder="Текст" />
       </div>
       <div class="send">
         <button class="active_button">Отправить</button>
