@@ -1,7 +1,8 @@
 <?php
 
 //В переменную $token нужно вставить токен, который нам прислал @botFather
-$token = "5255564626:AAF-HZ20LKQ_EwhhKM4TGKgy9DFXr2m5Ti8";
+$token = "5255564626:AAF-HZ20LKQ_EwhhKM4TGKgy9DFXr2m5Ti8
+";
 
 //Сюда вставляем chat_id
 $chat_id = "-634704747";
