@@ -12,19 +12,21 @@
     <!-- menu side bar -->
     <div class="side-bar">
       <div class="catalog-categories">
+      <div style="display: flex; width: 100% !important; justify-content: space-between;">
         <button class="close-btn close">
           <img src="icons/closeIcon.svg" alt="" />
         </button>
         <img
-          class="white-logo"
-          src="../../assets/img/blueLogo.png"
+          class="black-logo"
+          src="img/blueLogo.png"
           alt="dads"
         />
-        <a href="#">Наша продукция</a>
-        <a href="#">О нас</a>
-        <a href="#">Вопросы и ответы</a>
-        <a href="#">Карта</a>
-        <a href="#">Оставить заявку</a>
+      </div>
+      <a href="#about">О нас</a>
+          <a href="#prod">Наша продукция</a>
+          <a href="#FAQ">Вопросы и ответы</a>
+          <a href="#MAP">Карта</a>
+          <a href="#QUESTION">Оставить заявку</a>
       </div>
       <div class="catalog-categories">
         <span>Офис:</span>
@@ -42,11 +44,11 @@
             src="img/logoWhite.png"
             alt="asd"
           />
-          <a href="#">Наша продукция</a>
-          <a href="#">О нас</a>
-          <a href="#">Вопросы и ответы</a>
-          <a href="#">Карта</a>
-          <a href="#">Оставить заявку</a>
+          <a href="#about">О нас</a>
+          <a href="#prod">Наша продукция</a>
+          <a href="#FAQ">Вопросы и ответы</a>
+          <a href="#MAP">Карта</a>
+          <a href="#QUESTION">Оставить заявку</a>
         </div>
 
         <div class="right-side-mobile">
@@ -62,7 +64,7 @@
       </header>
       <div class="screen_bg">
         <div class="black_bg"></div>
-        <img class="fr-screen-bg" src="img/ALP-158.jpg" alt="" />
+        <img class="fr-screen-bg" src="img/Top.jpg" alt="" />
       </div>
       <div class="heading def-width-middle">
         <span class="h1"
@@ -70,7 +72,7 @@
           компаний</span
         >
         <div class="btns">
-          <button class="active_button">Посмотреть каталог</button>
+          <a href="#prod" class="active_button">Посмотреть каталог</a>
           <button class="unactive_button">
             <img src="img/playbtn.png" alt="" /> Смотреть видеоролик
           </button>
@@ -89,7 +91,7 @@
               color: #333;
             "
           >
-            <a class="h2" href="#"> Подробнее о нас </a>
+            <a class="h2" href="#about" id='about'> Подробнее о нас </a>
             <p style="margin-top: 2px; margin-left: 10px">
               ALP boots - предприятие специализирующееся в производстве спецобуви, основано в 2012 году. В настоящее время наше предприятие оснащено самым современным оборудованием и технологиями. Созданы все условия для оперативной и качественной работы персонала, который состоит из местных и иностранных, высококвалифицированных специалистов и профессионалов своего дела. Доказательством тому являются высокая оценка качества выпускаемого товара со стороны экспертов международных мероприятий, в рамках промышленных  ярмарок и кооперационной биржи, а так же доверие оказываемое со стороны  наших многолетних заказчиков и партнеров. Мы дорожим не только своей репутацией, но и доверенными нам жизнями. Этот фактор является главным критерием при создании коллекции ALP boots. Мы выступаем за качество и профессионализм!
             </p>
@@ -97,7 +99,7 @@
         </div>
         <div class="mini_heading" style="margin-top: 20px;">
           <span class="catalog none-for-mobile">каталог</span>
-          <span class="h2">Наша продукция</span>
+          <span id='prod' class="h2">Наша продукция</span>
           <!-- <button class="active_button">
 						<img src="icons/sortIcon.svg" alt="" />
 						Сортировать
@@ -138,12 +140,12 @@
     <div class="staitstics-screen">
       <div class="screen_bg">
         <div class="black_bg"></div>
-        <img src="img/ALP-1.jpg" alt="" />
+        <img src="img/Botoom.jpg" alt="" />
       </div>
       <div class="heading def-width-middle">
         <span class="span-opacity">«AMIR UL BAXR VMG» в цифрах</span>
         <span class="h2"
-          >Качество соответствующее мировым стандартам. Эксклюзивные цены. <br>Крупные объёмы в краткие сроки</span
+          >Качество соответствующее мировым стандартам. Эксклюзивные цены. <br>Крупные объёмы в краткие сроки.</span
         >
         <div class="results">
           <div class="result-item">
@@ -171,7 +173,6 @@
     <div class="screen_two">
       <div class="wrapper def-width-middle">
         <div class="mini_heading">
-          <span class="catalog none-for-mobile">развитие</span>
           <span class="h2">Почему мы?</span>
         </div>
         <div class="products why-we">
@@ -197,7 +198,7 @@
     <div class="screen_questions def-width-middle">
       <div class="mini_heading">
         <!-- <span class="catalog none-for-mobile">q&A</span> -->
-        <span class="h2">FAQ</span>
+        <span id='FAQ' class="h2">FAQ</span>
       </div>
       <div class="question">
         <h2 class="question-h2">Защиту от каких воздействий несет ваша продукция?</h2>
@@ -223,7 +224,7 @@
       </div>
       <div class="question">
         <h2 class="question-h2">Какой срок гарантии на вашу продукцию ?</h2>
-        <p>Срок на нашу продукцию более 6 месяцев.<br>При выполнении любых видов работ
+        <p>Срок гарантии на нашу продукцию более 6 месяцев.<br>При целевом использовании.
 
 		
 	
@@ -231,39 +232,41 @@
       </div>
       <div class="question">
         <h2>Есть ли какие-то скидки ?</h2>
-        <p>Так как у нас свое производство, мы предлагаем<br>индивидуальные условия как по ценам, так и по скидкам</p>
+        <p>Так как у нас свое производство, мы предлагаем<br>индивидуальные условия как по ценам, так и по скидкам.</p>
       </div>
       <div class="question">
         <h2>Сколько видов продукции вы производите?</h2>
-        <p>Наша компания производит более 20 видов продукции</p>
+        <p>Наша компания производит более 20 видов продукции.</p>
       </div>
       <div class="question">
         <h2>
-          Сколько различных дизайнов вы используете для производства своей
-          продукции?
+          Есть ли возможность персонализировать дизайн модели под запросы заказчика?
         </h2>
-        <p>ALP поставляет продукцию в 5+ различных дизайнах</p>
+        <p>-Да, такая возможность имеется. Данная опция обговаривается индивидуально.</p>
       </div>
       <div class="question">
         <h2>Есть ли возможность доставки?</h2>
-        <p>У нас есть служба доставки по всему Узбекистану</p>
+        <p>У нас есть доставка по всему Узбекистану.<br>
+          Доставка за границу РУз осуществляется с помощью логистических компаний.
+        </p>
+     
       </div>
      
     </div>
     <div class="margin"></div>
-    <form action="send.php" method="POST" class="def-width-middle">
+    <form action=" https://botalp.herokuapp.com/api/bot" method="POST" class="def-width-middle">
       <div class="mini_heading">
         <span class="catalog none-for-mobile">ОСТАВЬТЕ ЗАЯВКУ</span>
-        <span class="h2">Напишите нам</span>
+        <span id='QUESTION' class="h2">Напишите нам</span>
       </div>
       <div class="inputs">
-        <input type="text" name='name' placeholder="Введите имя" />
-        <input type="number"  name='phone' placeholder="Номер телефона" />
+        <input type="text" name='name' placeholder="Введите имя и фамилию" />
+        <input type="tel"  name='phone' placeholder="Номер телефона" value="+" />
         <input type="e-mail" name='email' placeholder="E-mail" />
-        <input type="text" name='text' placeholder="Текст" />
+        <input type="text" name='text'  placeholder="Ваш вопрос" />
       </div>
       <div class="send">
-        <button class="active_button">Отправить</button>
+        <button type="submit" class="active_button">Отправить</button>
         <p>
           Нажимая на кнопку «Отправить», вы даете <br />
           согласие на обработку ваших персональных данных.
@@ -312,6 +315,7 @@
     </div>
     <div class="margin"></div>
     <iframe
+    id='MAP'
       src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1368.4766162067108!2d66.92355656720655!3d39.64685201947446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAtlas%20Samarkand!5e0!3m2!1sru!2s!4v1629202971004!5m2!1sru!2s"
       width="100%"
       height="450"
