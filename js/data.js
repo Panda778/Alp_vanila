@@ -310,7 +310,7 @@ let products = [
   },
   {
     id: Math.random(),
-    img: "../img/shoes/гепард серый.png",
+    img: "../img/shoes/Gray.png",
     title: "ГЕПАРД серый / зимний, летний ",
     about: {
       "Материал верха":
